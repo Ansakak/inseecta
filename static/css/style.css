@@ -19,16 +19,21 @@ body {
 /******** Slider ********/
 
 .carousel, .item, .active {
-    height: 100%;
+    height: auto;
 }
 
 .carousel-inner {
-    height: 100%;
+    height: auto;
+}
+
+.ansak{
+	width: 100%;
+	height: auto;
 }
 
 .fill {
     width: 100%;
-    height: 100%;
+    height: auto;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -39,7 +44,7 @@ body {
 
 #mainCarousel .slider_overlay {
     background: none repeat scroll 0 0 #ffffff;
-    height: 100%;
+    height: auto;
     opacity: 0;
     position: absolute;
     right: 0;
